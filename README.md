@@ -11,10 +11,10 @@
 
 > A Vue.js 2.0 MomentJS library
 
-> It just wired moment api to 2 custom filters in Vue : moment() and duration().
+> It just wired moment api to custom filters in Vue : moment() and duration().
 > And also inject moment as this.$moment in your components.
 > So you have complete access to the whole api of moment in your templates and also the documentation from [momentjs.com](https://momentjs.com/docs).
-> Just keep in mind that the left value of the filter is the first argument in any of the parse and duration functions.
+> Just keep in mind that the left value of the filter is the first argument in any of the moment and duration functions.
 > You are good to go now :)
 
 > Generated using [vue-cli-template-library](https://github.com/julon/vue-cli-template-library).
