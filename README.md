@@ -1,5 +1,7 @@
 # vue-moment-lib
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/julon/vue-moment-lib.svg)](https://greenkeeper.io/)
+
 ![Rollup badge](https://img.shields.io/badge/Rollup-^0.53.3-ff69b4.svg)
 ![Jest](https://img.shields.io/badge/Jest-^22.0.4-blue.svg)
 ![Vue](https://img.shields.io/badge/Vue-^2.5.13-brightgreen.svg)
