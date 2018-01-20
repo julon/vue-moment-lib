@@ -63,16 +63,21 @@ Vue.use(VueMomentLib);
 
 ```html
 <!-- Local format -->
-<hello-world>{{ Date.now() | moment().format("YYYY") }}</hello-world>
+<span>{{ Date.now() | moment().format("YYYY") }}</span>
 
-<!-- UTC format by passing true -->
-<hello-world>{{ Date.now() | moment(true).format("YYYY") }}</hello-world>
+<!-- first argument of moment filter is a parameter for parsing to UTC, it is set by default to false so it is optional when you use default parsing -->
+
+<!-- isLocal + custom parsing + custom format -->
+<span>{{ Date.now() | moment(false, "12-25-1995", "MM-DD-YYYY").format("YYYY") }}</span>
+
+<!-- isUTC + custom format -->
+<span>{{ Date.now() | moment(true).format("YYYY") }}</span>
 
 <!-- Duration is supported -->
-<hello-world>{{ 500 | duration("minutes").humanize() }}</hello-world>
+<span>{{ 500 | duration("minutes").humanize() }}</span>
 
 <!-- 1500 milliseconds -->
-<hello-world>{{ 1500 | duration("milliseconds").milliseconds() }}</hello-world>
+<span>{{ 1500 | duration("milliseconds").milliseconds() }}</span>
 ```
 Raw JS for moments `moment(Date.now()).format("YYYY")` becomes `Date.now() | moment().format("YYYY")`
 
