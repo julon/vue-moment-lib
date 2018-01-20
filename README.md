@@ -13,7 +13,7 @@
 > A Vue.js 2.0 MomentJS library
 
 > It just wired moment api to custom filters in Vue : moment() and duration().
-> And also inject moment as this.$moment in your components.
+> And also inject moment as **this.$moment** in your components.
 > So you have complete access to the whole api of moment in your templates and also the documentation from [momentjs.com](https://momentjs.com/docs).
 > Just keep in mind that the left value of the filter is the first argument in any of the moment and duration functions.
 > You are good to go now :)
@@ -83,6 +83,20 @@ Vue.use(VueMomentLib);
 Raw JS for moments `moment(Date.now()).format("YYYY")` becomes `Date.now() | moment().format("YYYY")`
 
 Raw JS for duration `moment.duration(500).humanize()` becomes `500 | duration().humanize()`
+
+```js
+// in your components
+methods: {
+  now () {
+    return this.$moment(Date.now()).format()
+  }
+}
+
+// it is also register as a global function in the Vue instance
+// so you can do in vuex store or everywhere else to retrieve the same moment instance you initialized
+import Vue from 'vue'
+const thisYear = Vue.moment(Date.now()).format("YYYY")
+```
 
 ### Custom moment instances
 
