@@ -1,7 +1,7 @@
 {
   "name": "vue-moment-lib",
   "description": "A Vue.js 2.0 MomentJS library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/vue-moment-lib.common.js",
   "module": "dist/vue-moment-lib.esm.js",
