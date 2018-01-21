@@ -10,13 +10,14 @@ const LibraryModule = {
       moment = options.moment;
     }
 
-    // make moment accessible in components with this.$moment
     /* eslint-disable */
+    // make moment accessible in components with this.$moment
     Vue.prototype.$moment = moment;
+    Vue.prototype.$duration = moment.duration;
 
     // declare this moment instance as a global function for vuex, etc
-    /* eslint-disable */
     Vue.moment = moment;
+    /* eslint-enable */
 
     // filter to wire moment
     Vue.filter("moment", (value, isUtc = false, ...args) => {
