@@ -86,7 +86,7 @@ Vue.use(VueMomentLib);
 <span>{{ $moment(Date.now()).format("YYYY") }}</span>
 
 <!-- isLocal + custom parsing + custom format -->
-<span>{{ $moment(Date.now(), "12-25-1995", "MM-DD-YYYY").format("YYYY") }}</span>
+<span>{{ $moment(Date.now(), "MM-DD-YYYY").format("YYYY") }}</span>
 
 <!-- isUTC + custom format -->
 <span>{{ $moment.utc(Date.now()).format("YYYY") }}</span>
