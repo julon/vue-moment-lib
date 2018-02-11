@@ -23,7 +23,10 @@
   "keywords": [
     "vue",
     "vue-component",
-    "vue-library"
+    "vue-library",
+    "moment",
+    "date",
+    "time"
   ],
   "engines": {
     "node": ">=8.9.0"
