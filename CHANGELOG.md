@@ -1,3 +1,12 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/julon/vue-moment-lib/compare/v1.1.0...v1.1.1) (2018-03-10)
+
+
+### Bug Fixes
+
+* add keywords to package.json ([22cfd9f](https://github.com/julon/vue-moment-lib/commit/22cfd9f))
+* move publish to prepare ([b586183](https://github.com/julon/vue-moment-lib/commit/b586183))
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/julon/vue-moment-lib/compare/0cee3e9c80d7f6a4a84248edaa2ab48c001914fc...v1.1.0) (2018-01-21)
 
