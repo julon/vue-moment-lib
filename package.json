@@ -83,7 +83,7 @@
     "lint-staged": "^7.0.0",
     "lodash": "^4.17.4",
     "prettier": "^1.9.2",
-    "rollup": "^0.56.2",
+    "rollup": "^0.57.0",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-commonjs": "^9.0.0",
     "rollup-plugin-filesize": "^1.5.0",
