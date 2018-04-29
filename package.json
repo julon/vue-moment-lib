@@ -101,7 +101,7 @@
     "vue-jest": "^2.0.0",
     "vue-loader": "^14.0.2",
     "vue-template-compiler": "^2.5.13",
-    "travis-deploy-once": "^4.3.2"
+    "travis-deploy-once": "^5.0.0"
   },
   "config": {
     "commitizen": {
