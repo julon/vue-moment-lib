@@ -1,3 +1,11 @@
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/julon/vue-moment-lib/compare/v1.1.1...v1.1.2) (2018-05-01)
+
+
+### Bug Fixes
+
+* **package:** bump package lock version ([cbe4207](https://github.com/julon/vue-moment-lib/commit/cbe4207))
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/julon/vue-moment-lib/compare/v1.1.0...v1.1.1) (2018-03-10)
 
