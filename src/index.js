@@ -23,7 +23,7 @@ const LibraryModule = {
     Vue.filter("moment", (value, isUtc = false, ...args) => {
       // add utc support on moment(true)
       const filterMoment = isUtc ? moment.utc : moment;
-      return filterMoment(args);
+      return filterMoment(value, args);
     });
 
     // filter to wire moment duration
