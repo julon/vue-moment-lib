@@ -1,3 +1,11 @@
+<a name="1.1.3"></a>
+## [1.1.3](https://github.com/julon/vue-moment-lib/compare/v1.1.2...v1.1.3) (2018-06-02)
+
+
+### Bug Fixes
+
+* **filter:** add missing value param to filter ([cad2d57](https://github.com/julon/vue-moment-lib/commit/cad2d57))
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/julon/vue-moment-lib/compare/v1.1.1...v1.1.2) (2018-05-01)
 
