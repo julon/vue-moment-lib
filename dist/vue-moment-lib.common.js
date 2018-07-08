@@ -100,9 +100,9 @@ var setPublicPath = __webpack_require__("HrLf");
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("i7/w");
 var external_commonjs_vue_commonjs2_vue_root_Vue_default = /*#__PURE__*/__webpack_require__.n(external_commonjs_vue_commonjs2_vue_root_Vue_);
 
-// EXTERNAL MODULE: external "Moment"
-var external_Moment_ = __webpack_require__("wy2R");
-var external_Moment_default = /*#__PURE__*/__webpack_require__.n(external_Moment_);
+// EXTERNAL MODULE: external "moment"
+var external_moment_ = __webpack_require__("wy2R");
+var external_moment_default = /*#__PURE__*/__webpack_require__.n(external_moment_);
 
 // CONCATENATED MODULE: ./src/main.js
 
@@ -111,7 +111,7 @@ external_commonjs_vue_commonjs2_vue_root_Vue_default.a.config.productionTip = fa
 var LibraryModule = {
   install: function install(Vue, options) {
     // set to custom moment instance else to defaultMoment
-    var moment = (options || {}).moment || external_Moment_default.a || window.moment;
+    var moment = (options || {}).moment || external_moment_default.a || window.moment;
 
     if (moment) {
       var unix = moment.unix,
@@ -213,7 +213,7 @@ module.exports = require("vue");
 /***/ "wy2R":
 /***/ (function(module, exports) {
 
-module.exports = require("Moment");
+module.exports = require("moment");
 
 /***/ })
 
