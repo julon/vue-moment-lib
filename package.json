@@ -133,7 +133,6 @@
     "prepare": [
       "@semantic-release/changelog",
       "@semantic-release/npm",
-      "@semantic-release/github",
       {
         "path": "@semantic-release/git",
         "assets": [
