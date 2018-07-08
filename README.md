@@ -16,10 +16,10 @@
 ## Installation
 
 ```
-npm install vue-moment-lib
+npm install --save moment vue-moment-lib
 ```
 
-vue-moment-lib can be used as a module in both CommonJS and ES modular environments.
+vue-moment-lib can be used as a module in CommonJS environments.
 
 When in non-modular environment, vue-moment-lib will register all the components to vue by itself.</p>
 
