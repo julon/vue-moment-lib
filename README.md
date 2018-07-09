@@ -42,7 +42,7 @@ Vue.use(VueMomentLib);
 // Register the whole module with vue
 //
 var Vue = require("vue");
-var VueMomentLib = require("vue-moment-lib");
+var VueMomentLib = require("vue-moment-lib").default;
 
 // Install this library
 Vue.use(VueMomentLib);
