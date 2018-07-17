@@ -42,7 +42,7 @@
     "vue": "^2.5.16"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^2.1.1",
+    "@semantic-release/changelog": "^3.0.0",
     "@semantic-release/git": "^6.0.1",
     "@semantic-release/github": "^4.3.0",
     "@semantic-release/npm": "^3.3.4",
