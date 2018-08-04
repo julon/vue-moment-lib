@@ -108,7 +108,8 @@
     "collectCoverageFrom": [
       "src/**/*.{js,vue}",
       "!**/node_modules/**"
-    ]
+    ],
+    "testURL": "http://localhost"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
