@@ -9,7 +9,7 @@
 
 > A Vue.js 2.0 MomentJS library
 
-> Make momentjs available in your template and Vue instance. Since it just try to map raw js function, api is mostly same as[momentjs.com](https://momentjs.com/docs). Making it easier to use in your Vue.js projects.
+> Make momentjs available in your template and Vue instance. Since it just try to map raw js function, api is mostly same as [momentjs.com](https://momentjs.com/docs). Making it easier to use in your Vue.js projects.
 
 > It added moment parse api as filters, component and vue instance moment functions mapping.
 
